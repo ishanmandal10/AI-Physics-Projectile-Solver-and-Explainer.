@@ -5,15 +5,17 @@ from groq import Groq
 import time
 
 # ---------------- CONFIG ----------------
-st.set_page_config(page_title="AI Physics Applet", layout="wide")
+st.set_page_config(page_title="Projectile AI Lab", layout="wide")
 
 #  API key
-client = Groq(api_key="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")
+
+
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 g = 9.8
 
 # ---------------- TITLE ----------------
-st.title("🚀 AI Physics Applet")
+st.title("🚀 Projectile AI Lab")
 st.markdown("Projectile Motion + AI Tutor + Numerical Solver")
 
 # ---------------- INPUT + GRAPH ----------------

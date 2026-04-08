@@ -2,7 +2,7 @@
 # 🚀 AI Physics Projectile Solver & Explainer
 
 A Python-based application that solves projectile motion problems and generates structured, human-readable explanations of the results.
-
+Live Demo: https://ai-physics-projectile-solver-and-explainer-jqeo4zrgxvk96kyu26c.streamlit.app/Solver-and-Explainer
 ---
 
 ## 📌 Overview
